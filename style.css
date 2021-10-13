@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Raleway:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway';
+}
+
+body{
+  background-color: #f2f2f2;
+}
+
+.container{
+  margin: auto;
+  width: 85%;
+  background: #fff;
+  padding: 3em;
+  box-shadow: 0 0 2.2em rgba(0,0,0,.3);
+}
+
+.menu{
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.menu ul li{
+  list-style: none;
+  display: inline;
+}
+
+.menu ul li a{
+  color: #b83d53;
+  font-family: 'Racing Sans one';
+  text-decoration: none;
+  padding: 2em;
+  transition: .3s;
+}
+
+.menu ul li a:hover{
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.main img{
+  width: 15%;
+  height: 30%;
+  float: right;
+}
